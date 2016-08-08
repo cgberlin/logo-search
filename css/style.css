@@ -2,7 +2,6 @@
   box-sizing: border-box;
   transition: all 0.3s ease;
 }
-
 body > h1 {
   background-color: #b20000;
   margin: 0 auto;
@@ -13,7 +12,6 @@ body > h1 {
   align-items: center;
   font-family: 'Petit Formal Script', cursive;
 }
-
 .button-container, .search-container, .logo-container {
   display: flex;
   justify-content: center;
@@ -21,22 +19,17 @@ body > h1 {
   margin: 3rem auto;
   flex-wrap: wrap;
 }
-
 .logo-container {
   justify-content: space-around;
   width:576px;
 }
-
 li {
   text-align: center;
-
 }
 li:hover {
   cursor:pointer;
   background-color: #FF0000;
   color:white;
-
-
 }
 .search-container button {
   background-color: #b20000;
@@ -51,7 +44,6 @@ li:hover {
   border:1px solid #bdbdbd;
   margin: 3rem auto;
 }
-
 .logo-container img {
   padding:2rem;
 }
