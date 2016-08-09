@@ -12,7 +12,7 @@ body > h1 {
   align-items: center;
   font-family: 'Petit Formal Script', cursive;
 }
-.button-container, .search-container, .logo-container {
+.button-container, .search-container, .logo-container, .reset-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,7 +31,7 @@ li:hover {
   background-color: #FF0000;
   color:white;
 }
-.search-container button {
+.search-container button, .reset-container button {
   background-color: #b20000;
   color:white;
   margin-top: -2rem;
