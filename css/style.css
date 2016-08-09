@@ -45,5 +45,6 @@ li:hover {
   margin: 3rem auto;
 }
 .logo-container img {
+  -webkit-opacity: .99;
   padding:2rem;
 }

@@ -17,34 +17,35 @@ var highschoolLogoGray = $("[name='highschool-logo-gray']");
 function checkToHighlight(){
   if (parametersChosen.type == 'Scholarship Program'){
     console.log('success');
-    scholarshipLogo.show();
     grayScholarshipLogo.hide();
+    scholarshipLogo.fadeTo('slow', 1);
   }
   else if (parametersChosen.type == 'Loan Program'){
     console.log('success');
-    loanLogo.show();
     grayLoanLogo.hide();
+    loanLogo.fadeTo('slow', 1);
   }
   else if (parametersChosen.grade == 'High School'){
     highschoolLogoGray.hide();
-    highchoolLogo.show();
+    highchoolLogo.fadeTo('slow', 1);
   }
   else  if (parametersChosen.grade == 'K-12'){
     console.log('success');
     k12LogoGray.hide();
-    k12Logo.fadeIn(1000);
+    k12Logo.fadeTo('slow', 1);
   }
   else{
     grayScholarshipLogo.hide();
-    scholarshipLogo.show();
     grayLoanLogo.hide();
-    loanLogo.show();
+    scholarshipLogo.fadeTo('slow', 1);
+    loanLogo.fadeTo('slow', 1);
   }
 };
 
 function hideAll(){
-  grayScholarshipLogo.show();
-  scholarshipLogo.hide();
-  grayLoanLogo.show();
   loanLogo.hide();
+  scholarshipLogo.hide();
+  grayScholarshipLogo.fadeTo('slow', 1);
+  grayLoanLogo.fadeTo('slow', 1);
+
 };
